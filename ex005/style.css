@@ -1,0 +1,20 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+div#button{
+  background-color: rgb(238, 231, 231);
+  padding: 25px;
+  width: 150px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+
+div#button:hover{
+  background-color: rgb(207, 207, 207);
+}
+p{
+  text-align: center;
+}

@@ -10,7 +10,10 @@ div{
   width: 150px;
   border-radius: 20px;
   border: 1px solid black;
+  
 }
+
+
 
 div:hover{
   background-color: rgb(156, 156, 156);

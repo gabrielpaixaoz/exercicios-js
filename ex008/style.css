@@ -1,0 +1,16 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div#button{
+  padding: 30px;
+  background-color: rgb(214, 214, 214);
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+div#button:hover{
+  background-color: rgb(167, 167, 167) ;
+  cursor: pointer;
+}
