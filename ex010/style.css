@@ -1,0 +1,26 @@
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1{
+  margin-bottom: 50px;
+}
+span{
+  
+  background-color: rgb(233, 231, 231);
+  padding: 30px;
+  border: 1px solid black;
+  user-select: none;
+  
+}
+
+span:hover{
+  background-color: rgb(218, 216, 216);
+  cursor: pointer;
+
+}
+p{
+  margin-top: 50px;
+}
