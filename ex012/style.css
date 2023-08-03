@@ -1,0 +1,11 @@
+html, body{
+    margin: 0px;
+}
+
+
+div{
+    width: 20%;
+    height: 150px;
+    background-color: aqua;
+    margin-left: 80%;
+}
