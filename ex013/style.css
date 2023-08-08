@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div{
+    background-color: rgb(226, 226, 226);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    user-select: none;
+}
+
+
+div:hover{
+    background-color:  rgb(185, 182, 182);
+    cursor: pointer;
+
+}
