@@ -5,10 +5,26 @@ function iniciar(){
     let res = document.querySelector('section#res')
     
 
+    res.innerHTML = `<h2> Calculando... <h2>`
+    switch(selection){
+        case 1: 
+            res.innerHTML += `<p>${number1} + ${number2} = <strong>${number1 + number2}<strong><p>`
+        break
+        
+        case 2: 
+            res.innerHTML += `<p>${number1} - ${number2} = <strong> ${number1 - number2}<strong><p>`
+        break
 
-    if(isNaN(number1) || isNaN(number2) || isNaN(selection) || selection !==[1 , 2, 3, 4]){
-        res.innerHTML = `OPÇÃO INVÁLIDA!`
-    } else{
-       res.innerHTML = `ok`
+        case 3:
+            res.innerHTML += `<p>${number1} x ${number2} = <strong>${number1 * number2}<strong><p>`
+        break
+
+        case 4:
+            res.innerHTML += `<p>${number1} / ${number2} = <strong>${number1 / number2}<strong><p>`
+        break
+
+        default:
+            res.innerHTML += `<p>OPÇÃO INVÁLIDA! Você digitou ${number1} e ${number2}, mas não sei oque fazer com eles.`
     }
+
 }
