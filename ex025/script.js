@@ -8,9 +8,8 @@ function count(){
     for(let i = 1; i <= 10; i++){
        if(i % 2 == 0){
             output.innerHTML += `<mark><stong>${i}</stong></mark>&#x1F449;`
-        }else{
-            output.innerHTML += `${i} &#x1F449;`
         }
+        
 
         
     }
